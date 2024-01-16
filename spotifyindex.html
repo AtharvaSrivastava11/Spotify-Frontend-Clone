@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assects/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotifystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option" >
+                        <img src="assects/library_icon.png">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </div>
+
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist </p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button  class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcast to follow </p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button  class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="assects/backward_icon.png">
+                     <img src="assects/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button  class="badge nav-item">Explore Premium</button>
+                    <button  class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right:5px ;"></i>Install App</button> 
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+               
+                
+
+            </div>
+            
+                <h2>Recently played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assects/card1img.jpeg "class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assects/card5img.jpeg "class="card-img">
+                        <p class="card-title">Top Songs Global</p>
+                        <p class="card-info">Weekly music charts...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card6img.jpeg "class="card-img">
+                        <p class="card-title">Top Songs India</p>
+                        <p class="card-info">Weekly music charts...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card1img.jpeg "class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+
+
+                <h2>Trending now near you.</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assects/card1img.jpeg "class="card-img">
+                        <p class="card-title">Top 50 - Global</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card2img.jpeg "class="card-img">
+                        <p class="card-title">Mahiye Jinna Sohna</p>
+                        <p class="card-info">DARSHAN RAVAL</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card3img.jpeg "class="card-img">
+                        <p class="card-title">Mere Pass Tum Ho</p>
+                        <p class="card-info">Lofi Mix-5 Min Music</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card4img.jpeg "class="card-img">
+                        <p class="card-title">Chill Hits</p>
+                        <p class="card-info">Kick back to the best new and...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card7img.jpeg "class="card-img">
+                        <p class="card-title">Warm Fuzzy F...</p>
+                        <p class="card-info">Beautiful songs to give you that warmth...</p>
+                    </div>
+                </div>
+
+                <h2>Jump back in...</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assects/card8img.jpeg "class="card-img">
+                        <p class="card-title">All out 2010s</p>
+                        <p class="card-info">The Biggest songs of 2010...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card9img.jpeg "class="card-img">
+                        <p class="card-title">Pop Pop ...</p>
+                        <p class="card-info">daily playlist ...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card10img.jpeg "class="card-img">
+                        <p class="card-title">Pop Music Playlist</p>
+                        <p class="card-info"></p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card11img.jpeg "class="card-img">
+                        <p class="card-title">Melancholy Instru...</p>
+                        <p class="card-info">Beautifully sad and moody piano...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card12img.jpeg "class="card-img">
+                        <p class="card-title">Alone Again</p>
+                        <p class="card-info">Being alone can be tough ,but...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card13img.jpg"class="card-img">
+                        <p class="card-title">This is Listener</p>
+                        <p class="card-info"></p>
+                    </div>
+    
+                   
+                </div>
+
+
+                <h2>Recommended for you </h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="assects/card14img.webp"class="card-img">
+                        <p class="card-title">Rainy Playlist</p>
+                        <p class="card-info">Top 5 rain sounds playlists on soptify</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card15img.jpeg "class="card-img">
+                        <p class="card-title">Alex & Sierra</p>
+                        <p class="card-info">It's About Us</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card16img.jpeg "class="card-img">
+                        <p class="card-title">Hardstyle Party</p>
+                        <p class="card-info"></p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card17img.jpeg "class="card-img">
+                        <p class="card-title">Lone Star Blues</p>
+                        <p class="card-info">Simply Texas blues at its best.</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card18img.jpeg "class="card-img">
+                        <p class="card-title">HeartBreak Jazz</p>
+                        <p class="card-info">Heartbreaking and sad vocal...</p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card19img.jpeg "class="card-img">
+                        <p class="card-title">Beautiful Epic</p>
+                        <p class="card-info"></p>
+                    </div>
+                    <div class="card">
+                        <img src="assects/card20img.jpeg "class="card-img">
+                        <p class="card-title">Acoustic</p>
+                        <p class="card-info">Magic of Acoustic poured into your heart...</p>
+                    </div>
+                    
+
+                </div>
+
+                <div class="footer">
+                    <div class="line"></div>
+                </div>
+            
+            </div>
+        <div class="music-player">
+            <div class="album">
+                <div class="album-img">
+                     <img src="assects/seeyouagain.jpeg" class="music-player-img">
+                </div>
+                  <div class="album-info">
+                     <a class="player-title">See You Again.</a>
+                     <a class="player-info">Piano Mage</a>
+                </div>
+                <div class="heart-icon">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                <img src="assects/player_icon1.png" class="player-control-icon">
+                <img src="assects/player_icon2.png" class="player-control-icon">
+                <img src="assects/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;">
+                <img src="assects/player_icon4.png" class="player-control-icon">
+                <img src="assects/player_icon5.png" class="player-control-icon">
+
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">5:33</span>
+
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-icons">
+                    <button class="icon-black">
+                        <i class="fa-regular fa-circle-play"></i>
+                    </button>
+                    <button class="icon-black">
+                        <img src="assects/controls_icon2.png " class="cicon">
+                    </button>
+                    <button class="icon-black">
+                        <img src="assects/controls_icon3.png " class="cicon">
+                    </button>
+                    <button class="icon-black">
+                        <img src="assects/controls_icon4.png " class="cicon">
+                    </button>
+                    <button class="icon-black">
+                        <i class="fa-regular fa-volume"></i>
+                    </button>
+                    <button class="icon-black">
+                      <div class="range-bar">
+                         <input type="range" min="0" max="100" class="range-bar" step="1">
+                      </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
